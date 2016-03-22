@@ -1,0 +1,508 @@
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1201px) and (max-width: 1520px) {
+
+.leftbanner {
+   width: 55%;
+}
+.rightbanner{
+   width: 45%;
+}         
+.rightbanner h1 {
+    font-size: 44px;
+}
+.rightbanner p{
+    font-size: 16px;        
+}
+    
+}
+
+@media only screen and (min-width: 1184px) and (max-width: 1479px) {
+.homebanner{
+    border-bottom: 0px;
+}
+.leftbanner {
+    margin-top: 184px;
+}
+    
+}
+
+@media only screen and (max-width: 1109px) {
+.homebanner{
+    border-bottom: 0px;
+}
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+.rightbanner h1 {
+    font-size: 44px;
+    padding-top: 140px;
+}
+.rightbanner p{
+    font-size: 16px;        
+}
+.owl-prev1, .owl-next1{
+    position: static;
+}    
+nav ul li a {
+   font-size: 12px;
+   padding: 38px 7px 40px;
+}
+.sticky nav ul li a {
+    padding: 30px 7px 0px;
+}
+.rightbanner{
+     text-align: center;   
+}    
+.btn_android a {
+    margin: 14px 0 0 1px;
+} 
+.btn_ios a {
+    margin: 13px 0 0 0px;    
+}
+.homebanner{
+    height: 600px;
+}
+.fetures h3{
+    font-size: 34px;
+    padding-top: 30px;
+}  
+.fetures h5{
+    font-size: 18px;   
+}    
+.fetures{
+    padding-bottom: 50px;    
+}    
+.gallery h3{
+    font-size: 34px;
+}  
+.gallery h5{
+    font-size: 18px;   
+}    
+.gallery {
+    padding-bottom: 50px;
+}
+#youtube{
+    min-height: 450px;    
+}
+#youtube p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+#youtube h3{
+    padding: 0px;
+    font-size: 44px;
+}
+.price h3{
+    font-size: 34px;    
+}
+.price p{
+    font-size: 18px;    
+}   
+
+.price1 p, .price2 p, .price3 p{
+    line-height: 25px;    
+}
+.price1 h4, .price2 h4 ,.price3 h4{
+    padding: 0px;    
+}    
+.app h3{
+    font-size: 34px;    
+}
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+   
+nav ul li a {
+   font-size: 11px;
+   line-height: 16px;
+   padding: 38px 3px 40px;
+}
+.sticky nav ul li a {
+    padding: 30px 3px 0px;
+}    
+.rightbanner h1 {
+    font-size: 38px;
+    padding-top: 100px;
+    line-height: 45px;
+}
+ul{
+    padding: 0px;    
+}
+.rightbanner h4{
+    padding-bottom: 0px;    
+}
+#youtube {
+    min-height: 400px;
+}
+    
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.btn_menu{
+    position: fixed;
+    background: url("../img/Menu.png") no-repeat 0px 0px;
+	width: 24px;
+	height: 24px;
+    right: 20px;
+    top: 20px;
+    z-index: 8888;
+}
+.btn_menu:hover{
+    cursor: pointer;
+}    
+.logos{
+    padding-bottom: 15px;   
+}
+.homebanner{
+    height: 700px;
+    border-bottom: 0px;
+}
+.rightbanner h1 {
+    font-size: 42px;
+    padding-top: 100px;
+}
+.rightbanner h4 {
+    font-size: 16px;
+}    
+.rightbanner p{
+    font-size: 16px;        
+}
+.btn_android a {
+    margin: 14px 0 0 1px;
+} 
+.btn_ios a {
+    margin: 13px 0 0 0px;    
+}
+.owl-prev1, .owl-next1{
+    position: static;
+}    
+ul{
+    padding: 0px;    
+}
+.nav {
+    width: 100%;
+}   
+.nav ul li {
+    display: none;  
+    text-align: center;
+}   
+.sticky nav ul li a {
+    padding: 5px 0px 0px;
+}
+nav ul li a {
+    padding: 0px 0px 0px;
+}
+.leftbanner{display:none;}
+.rightbanner {
+    width: 100%;
+    float: none;
+	text-align:center;
+}
+nav ul li a {
+    padding: 10px 15px 10px;
+    text-align: center;
+}
+.nav-collapse a:active, .nav-collapse .active a , nav ul li a:hover{
+    border-top: 0;
+    color: #4bcaff;
+}
+nav ul li a {border-top:0;}
+.fetures h3 {
+    font-size: 30px;
+    padding: 15px 0 10px;
+}
+.fetures h5 {
+    font-size: 20px;
+}
+.fetures {
+    padding-bottom: 20px;
+}
+.gallery {
+    padding-bottom: 20px;
+}
+.gallery h3 {
+    font-size: 30px;
+}
+#youtube {
+    min-height: 350px;
+}
+#youtube h3 {
+    margin: 0;
+    padding: 15px 0px;
+    font-size: 26px;
+    line-height: 26px;
+}   
+#youtube p {
+    width: 95%;
+    text-align: center;
+}
+.price {
+    padding-bottom: 20px;
+}
+.price h3 {
+    font-size: 30px;
+    line-height: 36px;
+}
+.price1 {
+    width: 100%;
+    margin: 20px auto;
+}
+.price3 {
+    width: 100%;
+    margin: 20px auto;
+}
+.app_text {
+    padding-left: 0px;
+}
+#app h3 {
+    font-size: 36px;
+    line-height: 20px;
+}
+#app{
+    padding-bottom: 0px;    
+}    
+.app_download h3{
+    font-size: 36px;
+    line-height: 20px;    
+}       
+.contactform {
+    margin: 40px auto 0;
+    width: 80%;
+}
+.contact iframe {
+    min-height: 530px;
+}
+footer {
+    padding: 30px 0;
+    text-align: center;
+}
+.rightside {
+    text-align: center;
+}
+.owl-next1{
+    margin: -55px 0 0 30%;    
+}
+.sticky nav ul li a:hover {
+    border-top:0px; 
+    color:#4bcaff;
+    text-decoration: none;
+}
+    
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    
+.contactform{
+    min-width: 270px;
+}    
+.btn_menu{
+    position: fixed;
+    background: url("../img/Menu.png") no-repeat 0px 0px;
+	width: 24px;
+	height: 24px;
+    right: 20px;
+    top: 20px;
+    z-index: 8888;
+}
+.btn_menu:hover{
+    cursor: pointer;
+}    
+.logos{
+    padding-bottom: 15px;   
+}
+.homebanner{
+    height: 520px;
+}
+.rightbanner h1 {
+    font-size: 19px;
+    line-height: 22px;
+    padding-top: 85px;
+}
+.rightbanner h4 {
+    font-size: 16px;
+}    
+.rightbanner p{
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 18px;        
+}
+.btn_android a {
+    margin: 14px 0 0 1px;
+} 
+.btn_ios a {
+    margin: 13px 0 0 0px;    
+}
+.owl-prev1, .owl-next1{
+    position: static;
+}
+.owl-next1{
+    margin: -55px 0 0 30%;    
+}    
+ul{
+    padding: 0px;    
+}
+.nav {
+    width: 100%;
+}   
+.nav ul li {
+    display: none;  
+    text-align: center;
+}   
+.sticky nav ul li a {
+    padding: 5px 0px 0px;
+}
+nav ul li a {
+    padding: 0px 0px 0px;
+}
+.leftbanner{display:none;}
+.rightbanner {
+    width: 100%;
+    float: none;
+	text-align:center;
+}
+nav ul li a {
+    padding: 10px 15px 10px;
+    text-align: center;
+}
+.nav-collapse a:active, .nav-collapse .active a , nav ul li a:hover{
+    border-top: 0;
+    color: #4bcaff;
+}
+nav ul li a {border-top:0;}
+.fetures {
+    padding-bottom: 0px;
+}
+.fetures h3 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.fetures h5 {
+    font-size: 16px;
+}
+.fetures h4 a {
+    padding: 0px;
+}
+.fetures p {
+    padding: 0px;
+}
+.gallery {
+    padding-bottom: 20px;
+}
+.gallery h3 {
+    font-size: 22px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.gallery h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.gallery p {
+    font-size: 13px;
+    color: #838383;
+    padding: 10px 0px;
+    }
+#youtube {
+    min-height: 350px;
+}
+#youtube h3 {
+    margin: 0;
+    padding: 10px 0px;
+    font-size: 22px;
+    line-height: 26px;
+}   
+#youtube p {
+    width: 95%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+.price {
+    padding-bottom: 10px;
+}
+.price h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 30px;
+}
+.price p {
+    font-size: 16px;
+}    
+.price1 {
+    width: 100%;
+    margin: 20px auto;
+}
+.price1 h4, .price1 p {
+    margin: 0px;
+}
+.price2 {
+    width: 100%;
+    margin: 20px auto;
+}
+.price2 h4, .price2 p {
+    margin: 0px;
+}  
+.price3 {
+    width: 100%;
+    margin: 20px auto;
+}
+.price3 h4, .price3 p {
+    margin: 0px;
+}  
+.app_text {
+    padding-left: 0px;
+}
+#app h3 {
+    font-size: 36px;
+    line-height: 20px;
+}
+#app{
+    padding-bottom: 0px;    
+}    
+.app_download h3{
+    font-size: 30px;
+    line-height: 20px;    
+}       
+.contactform {
+    margin: 40px auto 0;
+    width: 80%;
+}
+.contact iframe {
+    min-height: 530px;
+}
+footer {
+    padding: 30px 0;
+    text-align: center;
+}
+.rightside {
+    text-align: center;
+}
+.rightbanner a.btn_download{
+	padding: 10px 15px;
+    display: inline-block;
+    margin: 10px;
+}
+.rightbanner button{
+	padding: 10px 15px;
+    margin: 5px 20px;
+}
+.sticky nav ul li a:hover {
+    border-top:0px; 
+    color:#4bcaff;
+    text-decoration: none;
+}
+    
+}
+
